@@ -1,0 +1,55 @@
+# Kompilierte Objektdateien
+*.slo
+*.lo
+*.o
+*.obj
+
+# Vorkompilierte Header
+*.gch
+*.pch
+
+# Kompilierte Dynamic- und Static-Libraries
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Ausführbare Dateien
+*.exe
+*.out
+*.app
+*.elf  # ELF-Executable, häufig auf Raspberry Pi
+
+# Makefile generierte Dateien
+Makefile.in
+Makefile
+
+# Build Verzeichnisse
+build/
+Build/
+bld/
+Debug/
+Release/
+bin/
+obj/
+libs/
+
+# Raspberry Pi-spezifische Dateien
+# Zum Beispiel, GPIO-Device-Files, die nicht im Repo gespeichert werden sollten
+/dev/gpio*
+
+# Backup-Dateien, die von Editoren erstellt werden könnten
+*~
+
+# Andere Dateien und Verzeichnisse
+*.log
+*.tlog
+.DS_Store
+.vs/
+.vscode/
+*.swp
+
+# Konfigurationsdateien, die spezifisch für Ihre Entwicklungsumgebung sein könnten
+*.config
+*.cfg
